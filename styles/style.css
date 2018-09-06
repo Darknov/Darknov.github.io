@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+}
+
+header {
+    position: relative;
+    padding:0;
+    margin:0;
+
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+.social-media-tab {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+
+  top: 70%;
+  left: 0;
+
+  z-index: 100;
+}
+
+.social-media-tab nav {
+  padding: 0;
+  margin: 0;
+}
+
+.social-media-tab ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-media-tab li {
+  display: block;
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+}
+
+.github-icon {
+  background-color: #211F1F;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: white;
+}
+
+.linkedin-icon {
+    padding: 0;
+  margin: 0;
+  color: white;
+  text-decoration: none;
+  background-color: #0077B5;
+}
