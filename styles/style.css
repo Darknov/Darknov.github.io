@@ -13,6 +13,9 @@ header {
     color: white;
 }
 
+/*
+Social Media Tab styles 
+*/
 .social-media-tab {
   position: fixed;
   padding: 0;
@@ -37,23 +40,30 @@ header {
 
 .social-media-tab li {
   display: block;
-  padding: 0;
-  margin: 0;
   font-size: 40px;
+}
+
+.social-text {
+  font-size: 11px;
+  text-align: left;
 }
 
 .github-icon {
   background-color: #211F1F;
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
   color: white;
 }
 
 .linkedin-icon {
-    padding: 0;
-  margin: 0;
   color: white;
-  text-decoration: none;
   background-color: #0077B5;
+}
+
+.social-icon {
+  transition-duration: 1s;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.social-icon:hover {
+  padding-left: 50px;
 }
