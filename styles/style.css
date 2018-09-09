@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #0E0E1E;
+  background-color: #0E0E20;
   color: white;
   font-family: 'Montserrat', sans-serif;
 }
@@ -19,11 +19,13 @@ body {
   display: inline-grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
+  height: 70px;
   background-color: #000000;
 }
 
 #logo {
   font-size: 20px;
+  text-transform: capitalize;
 }
 
 .menu-bar nav {
@@ -38,10 +40,10 @@ body {
 .page-grid {
   display: grid;
   grid-template-columns: 1fr;
-  margin-top: 30px;
+  margin-top: 0px;
   width: 80%;
   margin-left: 10%;
-  background-color: gray;
+  background-color: #202020;
 }
 
 /*
