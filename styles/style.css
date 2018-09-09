@@ -40,7 +40,7 @@ body {
 .page-grid {
   display: grid;
   grid-template-columns: 1fr;
-  margin-top: 0px;
+
   width: 80%;
   margin-left: 10%;
   background-color: #202020;
@@ -107,7 +107,7 @@ Social Media Tab styles
   color: white;
   background-color: darkgreen;
   font-size: 33px !important;
-  padding: 9px 1px 9px 1px;
+  padding: 11px 1px 10px 1px;
 }
 
 
