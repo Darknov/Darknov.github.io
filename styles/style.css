@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #111111;
+  background-color: #0E0E1E;
   color: white;
   font-family: 'Montserrat', sans-serif;
 }
@@ -19,7 +19,7 @@ body {
   display: inline-grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
-  background-color: green;
+  background-color: #000000;
 }
 
 #logo {
