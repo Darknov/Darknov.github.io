@@ -2,44 +2,44 @@ body {
   margin: 0;
   background-color: #eee;
   font-family: 'Montserrat', sans-serif;
+  font-size: 150%;
 }
 
 /*
   Menu Bar
 */
 .on-top {
-  display: fixed;
+  position: fixed;
   top: 0;
   left: 0;
+  width: 100%;
 }
 
 #menu-bar {
   display: inline-grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   width: 100%;
-  height: 40px;
+  height: 5%;
   padding: 5px;
   background-color: #202020;
 }
 
 #logo {
-  font-size: 15px;
   text-transform: capitalize;
-  color: white;
+  color: #DFDFDF;
   font-weight: bold;
   transition-duration: 2s;
   margin-left: 25px;
   padding-left: 5px;
 
   border-width: 0px 0px 0px 3px;
-  border-color: white;
+  border-color: #DFDFDF;
   border-style: solid
 }
 
 #menu-bar nav {
   display: inline-grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  font-size: 15px;
   color: white;
   margin-right: 25px;
 }
@@ -50,19 +50,19 @@ body {
   align-items: center;
 
   text-decoration: none;
-  color: white;
-
-  border-width: 1px;
-  border-color: white;
-  border-style: solid;
+  color: #DFDFDF;
 
   transition-duration: 0.4s;
 
 }
 
 #menu-bar nav a:hover {
-  font-size: 18px;
+  font-size: 115%;
   background-color: #303030;
+  color: white;
+  -webkit-box-shadow: 2px 2px 5px 2px rgba(48,48,48,1);
+  -moz-box-shadow: 2px 2px 5px 2px rgba(48,48,48,1);
+  box-shadow: 2px 2px 5px 2px rgba(48,48,48,1);
 }
 
 /*
@@ -73,6 +73,7 @@ body {
 }
 
 h1 {
+  font-size: 200%;
   margin-top: 20%;
   font-weight: 200;
   text-transform: uppercase;
@@ -80,6 +81,7 @@ h1 {
 }
 
 #my-title {
+  font-size: 150%;
   padding-bottom: 20%;
 
   font-weight: 200;
@@ -92,7 +94,7 @@ h1 {
 .page-grid {
   display: grid;
   grid-template-columns: 1fr;
-  margin-top: 20px;
+  margin-top: 5%;
   margin-bottom: 100px;
   width: 80%;
   margin-left: 10%;
@@ -182,3 +184,22 @@ footer {
   text-align: center;
   font-size: 10px;
 }
+
+@media (orientation:portrait) {
+  .page-grid {
+    margin-top: 15%;
+  }
+}
+
+@media (orientation:landscape) and (max-width: 1440px) {
+  .page-grid {
+    margin-top: 8%;
+  }
+}
+
+@media (orientation:landscape) and (max-width: 900px) {
+  .page-grid {
+    margin-top: 15%;
+  }
+}
+
