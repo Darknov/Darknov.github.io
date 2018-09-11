@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #eee;
+  background-color: #EEEEEE;
   font-family: 'Montserrat', sans-serif;
   font-size: 150%;
 }
@@ -22,7 +22,7 @@ body {
   width: 100%;
   height: 5%;
   padding: 5px;
-  background-color: #202020;
+  background-color: rgba(32,32,32, 0.9);
   
 }
 
@@ -60,11 +60,8 @@ body {
 
 #menu-bar nav a:hover {
   font-size: 115%;
-  background-color: #303030;
-  color: white;
-  -webkit-box-shadow: 2px 2px 5px 2px rgba(48,48,48,1);
-  -moz-box-shadow: 2px 2px 5px 2px rgba(48,48,48,1);
-  box-shadow: 2px 2px 5px 2px rgba(48,48,48,1);
+  background-color: #CFCFCF;
+  color: #000000;
 }
 
 /*
