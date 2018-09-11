@@ -191,6 +191,24 @@ footer {
   }
 }
 
+@media (orientation:portrait) and (max-width: 600px) {
+  .page-grid {
+    margin-top: 20%;
+  }
+
+  body {
+    font-size: 90%;
+  }
+
+
+}
+
+@media (orientation:portrait) and (max-width: 400px) {
+  .page-grid {
+    margin-top: 25%;
+  }
+}
+
 @media (orientation:landscape) and (max-width: 1440px) {
   .page-grid {
     margin-top: 8%;
@@ -202,4 +220,6 @@ footer {
     margin-top: 15%;
   }
 }
+
+
 
