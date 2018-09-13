@@ -211,6 +211,7 @@ h1 {
 
   color: white;
   text-align: center;
+  font-size: 100%;
 }
 
 .project-overview:hover{
@@ -312,8 +313,6 @@ footer {
   body {
     font-size: 90%;
   }
-
-
 }
 
 @media (orientation:portrait) and (max-width: 400px) {
@@ -334,5 +333,16 @@ footer {
   }
 }
 
+@media (max-width: 1480px) {
+  .project-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 1000px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
 
 
