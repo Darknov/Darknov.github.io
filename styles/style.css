@@ -5,9 +5,11 @@ body {
   font-size: 150%;
 }
 
+
 /*
   Menu Bar
 */
+
 .on-top {
   position: fixed;
   top: 0;
@@ -22,8 +24,7 @@ body {
   width: 100%;
   height: 5%;
   padding: 5px;
-  background-color: rgba(32,32,32, 0.9);
-  
+  background-color: rgba(32, 32, 32, 0.9);
 }
 
 #menu-bar a {
@@ -59,7 +60,6 @@ body {
   color: #DFDFDF;
 
   transition-duration: 0.4s;
-
 }
 
 #menu-bar nav a:hover {
@@ -68,9 +68,11 @@ body {
   color: #000000;
 }
 
+
 /*
   Site
 */
+
 .text-light {
   color: #424242;
 }
@@ -82,40 +84,49 @@ h1 {
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 0;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #my-title {
+  position: relative;
   font-size: 150%;
 
   font-weight: 200;
   text-transform: uppercase;
   text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-#my-title:after {
-  content : "";
+#my-title:before {
+  content: "";
   position: absolute;
+  top: 0%;
   left: 50%;
-  height  : 0px;
-  width   : 0%;
-  border-bottom:4px solid #424242;
+  height: 0px;
+  width: 0%;
+  border-bottom: 4px solid #424242;
+  transform: translateY(-10px);
+
 
   animation-name: line-animation;
   animation-duration: 2s;
-  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards;
+  /* Safari 4.0 - 8.0 */
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
 }
 
 @keyframes line-animation {
-    from {
-      left: 50%;
-      width: 0%;
-    }
-    to {
-      left: 35%;
-      width: 30%;
-    }
+  from {
+    left: 50%;
+    width: 0%;
+  }
+  to {
+    left: 20%;
+    width: 60%;
+  }
 }
 
 
@@ -131,12 +142,10 @@ h1 {
   border-width: 1px;
   border-style: solid;
   border-color: #CECECE;
-
-  
 }
 
 .shadow {
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .content {
@@ -177,12 +186,11 @@ h1 {
   opacity: 0;
   transition: .5s ease;
   background-color: #008CBA;
-  
+
   border-width: 5px;
   border-color: black;
   border-style: solid;
   border-radius: 50%;
-
 }
 
 .content h2 {
@@ -194,6 +202,7 @@ h1 {
   text-align: justify;
   margin: 0% 10% 0% 10%;
 }
+
 .container:hover .overlay {
   opacity: 1;
   border-color: #0F0F1F;
@@ -219,10 +228,9 @@ h1 {
   border-width: 1px;
   border-style: solid;
   border-color: #CECECE;
-
 }
 
-.project-grid img{
+.project-grid img {
 
   width: 100%;
   height: 100%;
@@ -254,7 +262,7 @@ h1 {
   font-size: 80%;
 }
 
-.project-overview:hover{
+.project-overview:hover {
   opacity: 1;
   background-color: rgba(19, 40, 71, 0.95);
 }
@@ -265,7 +273,7 @@ h1 {
   transition-duration: 1s;
 }
 
-.project-overview:hover h3{
+.project-overview:hover h3 {
   transform: translateY(0px);
   opacity: 1;
 }
@@ -284,13 +292,16 @@ h1 {
   transition-duration: 1s;
 }
 
-.project-overview:hover .project-info{
+.project-overview:hover .project-info {
   transform: translateY(0px);
   opacity: 1;
 }
+
+
 /*
 Social Media Tab styles 
 */
+
 .social-media-tab {
   position: fixed;
   padding: 0;
@@ -401,7 +412,6 @@ footer {
 @media (max-width: 1000px) {
   .project-grid {
     grid-template-columns: 1fr;
-
   }
   .project-overview {
     font-size: 100%;
@@ -413,5 +423,3 @@ footer {
     font-size: 80%;
   }
 }
-
-
