@@ -149,6 +149,14 @@ h1 {
   border-radius: 50%;
 }
 
+.content h2 {
+  text-align: center;
+}
+
+.content p {
+  text-align: justify;
+  margin: 0% 10% 0% 10%;
+}
 .container:hover .overlay {
   opacity: 1;
 }
