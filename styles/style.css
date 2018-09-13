@@ -1,8 +1,9 @@
 body {
   margin: 0;
-  background-color: #EEEEEE;
+  background-color: rgba(220, 221, 225,1.0);
   font-family: 'Montserrat', sans-serif;
   font-size: 150%;
+  color: rgba(47, 54, 64,1.0);
 }
 
 
@@ -24,7 +25,7 @@ body {
   width: 100%;
   height: 5%;
   padding: 5px;
-  background-color: rgba(32, 32, 32, 0.9);
+  background-color: rgba(42, 49, 59, 0.95);
 }
 
 #menu-bar a {
@@ -64,7 +65,7 @@ body {
 
 #menu-bar nav a:hover {
   font-size: 115%;
-  background-color: #CFCFCF;
+  background-color: rgba(220, 221, 225,1.0);
   color: #000000;
 }
 
@@ -137,7 +138,7 @@ h1 {
   margin-bottom: 100px;
   width: 80%;
   margin-left: 10%;
-  background-color: #F5F5F8;
+  background-color: rgba(245, 246, 250,1.0);
 
   border-width: 1px;
   border-style: solid;
@@ -185,7 +186,7 @@ h1 {
   height: 94%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: rgba(39, 60, 117,1.0);
 
   border-width: 5px;
   border-color: black;
@@ -264,7 +265,7 @@ h1 {
 
 .project-overview:hover {
   opacity: 1;
-  background-color: rgba(19, 40, 71, 0.95);
+  background-color: rgba(25, 42, 86,0.95);
 }
 
 .project-overview h3 {
