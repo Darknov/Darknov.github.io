@@ -77,18 +77,43 @@ h1 {
   font-weight: 200;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 0;
 }
 
 #my-title {
   font-size: 150%;
-  padding-bottom: 20%;
 
   font-weight: 200;
   text-transform: uppercase;
   text-align: center;
-  
-  text-decoration: overline;
 }
+
+#my-title:after {
+  content : "";
+  position: absolute;
+  left: 50%;
+  height  : 0px;
+  width   : 0%;
+  border-bottom:4px solid #424242;
+
+  animation-name: line-animation;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes line-animation {
+    from {
+      left: 50%;
+      width: 0%;
+    }
+    to {
+      left: 35%;
+      width: 30%;
+    }
+}
+
 
 .page-grid {
   display: grid;
@@ -111,7 +136,7 @@ h1 {
 }
 
 .content {
-  margin: 10% 10% 30px 10%;
+  margin: 30% 10% 30px 10%;
 }
 
 .content-part {
