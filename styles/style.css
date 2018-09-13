@@ -211,7 +211,7 @@ h1 {
 
   color: white;
   text-align: center;
-  font-size: 100%;
+  font-size: 80%;
 }
 
 .project-overview:hover{
@@ -342,6 +342,10 @@ footer {
 @media (max-width: 1000px) {
   .project-grid {
     grid-template-columns: 1fr;
+
+  }
+  .project-overview {
+    font-size: 100%;
   }
 }
 
