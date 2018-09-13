@@ -408,4 +408,10 @@ footer {
   }
 }
 
+@media (max-width: 500px) {
+  .project-overview {
+    font-size: 80%;
+  }
+}
+
 
