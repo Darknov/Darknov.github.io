@@ -52,6 +52,7 @@ body {
   align-items: center;
 
   text-decoration: none;
+  text-transform: uppercase;
   color: #DFDFDF;
 
   transition-duration: 0.4s;
@@ -174,6 +175,7 @@ h1 {
 
 .content h2 {
   text-align: center;
+  text-transform: capitalize;
 }
 
 .content p {
