@@ -26,6 +26,10 @@ body {
   
 }
 
+#menu-bar a {
+  text-decoration: none;
+}
+
 #logo {
   text-transform: capitalize;
   color: #DFDFDF;
@@ -51,7 +55,6 @@ body {
   justify-content: center;
   align-items: center;
 
-  text-decoration: none;
   text-transform: uppercase;
   color: #DFDFDF;
 
