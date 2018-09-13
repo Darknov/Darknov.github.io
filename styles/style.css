@@ -244,6 +244,16 @@ h1 {
   background-color: rgba(19, 40, 71, 0.95);
 }
 
+.project-overview h3 {
+  transform: translateY(-20px);
+  opacity: 0;
+  transition-duration: 1s;
+}
+
+.project-overview:hover h3{
+  transform: translateY(0px);
+  opacity: 1;
+}
 
 .project-info {
   border-width: 3px 0px 0px 0px;
@@ -253,6 +263,15 @@ h1 {
   margin: 5px;
   padding: 10px;
   bottom: 0;
+
+  transform: translateY(20px);
+  opacity: 0;
+  transition-duration: 1s;
+}
+
+.project-overview:hover .project-info{
+  transform: translateY(0px);
+  opacity: 1;
 }
 /*
 Social Media Tab styles 
