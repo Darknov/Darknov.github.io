@@ -298,6 +298,45 @@ h1 {
   opacity: 1;
 }
 
+/*
+Skills
+*/
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #CECECE;
+
+  font-size: 60%;
+}
+
+.skills-grid h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 140%;
+}
+
+.skill-element {
+  width: 100%;
+  padding: 3px 0px 3px 0px;
+  margin: 0px;
+}
+
+.skill-element .inside {
+  margin-left: 8px;
+}
+
+.skill-element:nth-child(4n - 1) {
+  background-color: rgba(220, 221, 225,1.0);
+}
+
+.skill-element:nth-child(4n - 2) {
+  background-color: rgba(220, 221, 225,1.0);
+}
 
 /*
 Social Media Tab styles 
