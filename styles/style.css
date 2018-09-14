@@ -304,7 +304,9 @@ Skills
 
 .skills-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto auto;
+  grid-column-gap: 1px;
+  grid-row-gap: 1px;
   width: 100%;
   border-width: 1px;
   border-style: solid;
@@ -322,6 +324,7 @@ Skills
 
 .skill-element {
   width: 100%;
+  border: 1px solid rgba(100, 100, 100,1.0);
   padding: 3px 0px 3px 0px;
   margin: 0px;
 }
@@ -331,13 +334,22 @@ Skills
   margin-right: 8px;
 }
 
-.skill-element:nth-child(4n - 1) {
+/*.skill-element:nth-child(4n - 1) {
   background-color: rgba(220, 221, 225,1.0);
 }
 
 .skill-element:nth-child(4n - 2) {
   background-color: rgba(220, 221, 225,1.0);
+}*/
+
+.skill-element:nth-child(4n - 1) {
+  background-color: rgba(220, 221, 225,1.0);
 }
+
+.skill-element:nth-child(4n) {
+  background-color: rgba(220, 221, 225,1.0);
+}
+
 
 /*
 Social Media Tab styles 
