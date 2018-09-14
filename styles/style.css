@@ -453,16 +453,6 @@ footer {
   .page-grid {
     margin-top: 20%;
   }
-
-  body {
-    font-size: 90%;
-  }
-}
-
-@media (orientation:portrait) and (max-width: 400px) {
-  .page-grid {
-    margin-top: 25%;
-  }
 }
 
 @media (orientation:landscape) and (max-width: 1440px) {
@@ -483,17 +473,56 @@ footer {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .project-grid {
     grid-template-columns: 1fr;
   }
+
+  body {
+    font-size: 90%;
+  }
+
   .project-overview {
-    font-size: 100%;
+    font-size: 200%;
   }
 }
 
-@media (max-width: 500px) {
-  .project-overview {
+@media (max-width: 800px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  body {
     font-size: 80%;
+  }
+
+  .project-overview {
+    font-size: 200%;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 70%;
+  }
+
+  .project-overview {
+    font-size: 150%;
+  }
+}
+
+@media (max-width: 450px) {
+  body {
+    font-size: 60%;
+  }
+
+  .project-overview {
+    font-size: 130%;
+  }
+}
+
+@media (max-width: 350px) {
+  body {
+    font-size: 55%;
   }
 }
